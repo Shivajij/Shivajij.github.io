@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import AllRouters from './Pages/AllRouters';
 
 function App() {
   return (
-    <div className="App">
-     Hello I am Shivaji
+    <>
+    <div className='App'>
+      <AllRouters />
     </div>
+    </>
   );
 }
 

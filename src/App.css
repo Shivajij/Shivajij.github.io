@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+.PortfollioLaptop{
+      width: 80%;
+      margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.PortfollioMobile{
+      display: none;
+      margin-top: 60px;
+}
+.PortfollioTablet{
+      display: none;
+      margin-top: 60px;
+}
+.NavbarLaptop{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.NavbarMobile{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      display: none;
+}
+.ProfileImg{
+      width: 450px;
+      height: 450px;
+      border-radius: 50%;  
+      margin-top: 200px;
+      border: 1px solid gray
+}
+.AboutContact{
+      display: flex;
+      margin-top: 20px;
+      justify-content: center;
+      gap: 20px;
+}
+.AboutText{
+      flex-direction:column;
+      gap: 20px;
+      width:51%;
+      margin: auto; 
+}
+.SkillList{
+      width: 80%;
+      margin: auto;
+      justify-content: space-between;
+}
+.SkillListAll{
+      flex-direction: column;
+      gap: 20px; 
+      width: 25%;
+}
+.Projects{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+      margin-bottom: 100px;
+}
+.LeftRightLogo{
+      cursor: pointer;
+      color: gray;
+}
+.LeftRightLogo :active{
+      color: aqua;
+}
+@media screen and (max-width: 540px){
+      .PortfollioLaptop{
+            display: none;
+      }
+
+      .PortfollioMobile{
+            display: block;
+      }
+      .NavbarLaptop{
+            display: none;
+      }
+      .NavbarMobile{
+            display: block;
+      }
+      .AboutContact{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            align-items: center;
+            gap: 20px;
+      }
+      .AboutText{
+            flex-direction:column;
+            gap: 20px;
+            width:80%;
+            margin: auto; 
+      }
+      .SkillList{
+            width: 80%;
+            margin: auto;
+            flex-direction: column;
+            gap: 100px;
+            justify-content: space-between;
+      }
+      .SkillListAll{
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+      }
+      .Projects{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 50px;
+            margin-bottom: 100px;
+      }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@media screen and (min-width: 540px) and (max-width: 820px) {
+      .ProfileImg{
+            width: 450px;
+            height: 350px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+      }
+      .AboutText{
+            flex-direction:column;
+            gap: 20px;
+            width:70%;
+            margin: auto; 
+      }
+      .SkillListAll{
+            flex-direction: column;
+            gap: 20px;
+            width: 30%;
+      }
 }
