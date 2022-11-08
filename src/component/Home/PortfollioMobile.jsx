@@ -22,7 +22,7 @@ const PortfollioMobile = () => {
     <>
     <Flex direction={'column'} gap={4}>
       <Heading>Hi 👋,</Heading>
-      <Heading>I'am <span style={{color: "blue"}}>Dinesh</span></Heading>
+      <Heading>I'am <span style={{color: "blue"}}>Shivaji</span></Heading>
       <Heading>MERN Stack Developer</Heading>
       <Button colorScheme={'blue'} width="140px" mt={6} 
       onClick={resumeButton}
@@ -33,9 +33,9 @@ const PortfollioMobile = () => {
       <Img src={Pic} alt='' width={60} height={60} borderRadius="50%" mt={24}/>
     </Flex>
     <Flex gap={4} mt={20}>
-            <Link href='https://www.linkedin.com/in/dinesh-karde/'_hover={{"color": "#00ffff"}} target={"_blank"}><GrLinkedinOption fontSize={26} /></Link>
-            <Link href='https://github.com/captain-programming' _hover={{"color": "#00ffff"}}target={"_blank"}><GrGithub fontSize={26}/></Link>
-            <Link href='https://twitter.com/DineshKarde103' _hover={{"color": "#00ffff"}}target={"_blank"}><GrTwitter fontSize={26}/></Link>
+            <Link href='https://www.linkedin.com/in/shivaji-jadhav-04161b22b/'_hover={{"color": "#00ffff"}} target={"_blank"}><GrLinkedinOption fontSize={26} /></Link>
+            <Link href='https://github.com/Shivajij' _hover={{"color": "#00ffff"}}target={"_blank"}><GrGithub fontSize={26}/></Link>
+            <Link href='https://twitter.com/Shivaji5242' _hover={{"color": "#00ffff"}}target={"_blank"}><GrTwitter fontSize={26}/></Link>
       </Flex>
     </>
   )
