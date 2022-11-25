@@ -34,7 +34,7 @@ const projectArr=[
     img: [lovoda1, lovoda2, lovoda3, lovoda4, lovoda5, lovoda6]
   },
   {
-    title: "Cricinfo Clone", 
+    title: "Myglamm Clone", 
     description: "Myglamm is one of Europe's largest natural beauty companies, It's all about bringing innovation in makeup to accomplish our single, this is my individual project, and it took me 6 days to make it.",
     team: "this is my individual project, and it took me 6 days to make it.",
     techStack: "CSS | HTML | JavaScript | react",
@@ -51,15 +51,7 @@ const projectArr=[
     liveLink: "https://dainty-macaron-2e40e7.netlify.app",
     img: [pluralsite1, pluralsite2, pluralsite3, pluralsite4, pluralsite5, pluralsite6]
   },
-  // {
-  //   title: "OLX Clone", 
-  //   description: "OLX is a electronics and automobile product brand and we made a clone of its online retail platform.",
-  //   team: "A collaborative project built by a me, executed in 5 days.",
-  //   techStack: "CSS | HTML | JavaScript | React",
-  //   codeLink: "https://github.com/captain-programming/rabid-fire-6527",
-  //   liveLink: "#",
-  //   img: []
-  // },
+
 ]
 
 const Projects = () => {
