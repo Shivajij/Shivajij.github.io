@@ -17,7 +17,13 @@ const NavbarLaptop = () => {
   
   return (
     <>
-    <Flex justifyContent={'space-between'} p={[3, 2, 1, 2]} width={'95%'} margin="auto" alignItems={'center'} className='Navbar'>
+    <Flex justifyContent={'space-between'} 
+      p={[3, 2, 1, 2]} 
+      width={'95%'}
+       margin="auto" 
+       alignItems={'center'} 
+       
+       className='Navbar'>
       <NavLink to="/"><Img src={Logo} alt='' width={20} borderRadius={"50%"}/></NavLink>
       <Flex gap={10} fontWeight="bold">
         <a href='#home' onClick={() =>  toggleNavList("#home")}>Home</a>

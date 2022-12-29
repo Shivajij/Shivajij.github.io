@@ -7,12 +7,12 @@ import lovoda4 from "../../resources/lovoda/lovoda-3.jpg";
 import lovoda5 from "../../resources/lovoda/lovoda-4.jpg";
 import lovoda6 from "../../resources/lovoda/lovoda-5.jpg";
 
-import myglam1 from "../../resources/myglam/myglam-1.jpg";
-import myglam2 from "../../resources/myglam/myglam-2.jpg";
-import myglam3 from "../../resources/myglam/myglam-3.jpg";
-import myglam4 from "../../resources/myglam/myglam-4.jpg";
-import myglam5 from "../../resources/myglam/myglam-5.jpg";
-import myglam6 from "../../resources/myglam/myglam-6.jpg";
+// import myglam1 from "../../resources/myglam/myglam-1.jpg";
+// import myglam2 from "../../resources/myglam/myglam-2.jpg";
+// import myglam3 from "../../resources/myglam/myglam-3.jpg";
+// import myglam4 from "../../resources/myglam/myglam-4.jpg";
+// import myglam5 from "../../resources/myglam/myglam-5.jpg";
+// import myglam6 from "../../resources/myglam/myglam-6.jpg";
 // import cricinfo7 from "../../resources/cricinfo/myglam-3.jpg";
 
 import pluralsite1 from "../../resources/pluralsite/pluralsite-6.jpg";
@@ -33,15 +33,15 @@ const projectArr=[
     liveLink: "https://deft-crepe-8bb32d.netlify.app/index.html",
     img: [lovoda1, lovoda2, lovoda3, lovoda4, lovoda5, lovoda6]
   },
-  {
-    title: "Myglamm Clone", 
-    description: "Myglamm is one of Europe's largest natural beauty companies, It's all about bringing innovation in makeup to accomplish our single, this is my individual project, and it took me 6 days to make it.",
-    team: "this is my individual project, and it took me 6 days to make it.",
-    techStack: "CSS | HTML | JavaScript | react",
-    codeLink: "https://github.com/Shivajij/my_Glamm_RCT_101",
-    liveLink: "https://buildm.netlify.app/",
-    img: [myglam1, myglam2, myglam3, myglam4, myglam5, myglam6]
-  },
+  // {
+  //   title: "Myglamm Clone", 
+  //   description: "Myglamm is one of Europe's largest natural beauty companies, It's all about bringing innovation in makeup to accomplish our single, this is my individual project, and it took me 6 days to make it.",
+  //   team: "this is my individual project, and it took me 6 days to make it.",
+  //   techStack: "CSS | HTML | JavaScript | react",
+  //   codeLink: "https://github.com/Shivajij/my_Glamm_RCT_101",
+  //   liveLink: "https://buildm.netlify.app/",
+  //   img: [myglam1, myglam2, myglam3, myglam4, myglam5, myglam6]
+  // },
   {
     title: "Pluralsite Clone", 
     description: "The technology workforce development company",

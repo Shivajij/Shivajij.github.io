@@ -1,6 +1,6 @@
 import { Heading, Box, Flex } from '@chakra-ui/react'
 import { TbBrandHtml5, TbBrandCss3, TbBrandJavascript, TbBrandReactNative } from "react-icons/tb";
-import { SiRedux, SiChakraui, SiTypescript, SiNodedotjs, SiMongodb, SiExpress } from "react-icons/si"; 
+import { SiRedux, SiChakraui,SiNodedotjs, SiMongodb } from "react-icons/si"; 
 import { BiGitMerge } from 'react-icons/bi';
 import React from 'react'
 
