@@ -22,6 +22,7 @@ const About = () => {
     </Flex>
     </Box>
     </>
+    
   )
 }
 
