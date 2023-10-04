@@ -1,6 +1,6 @@
 import { Heading, Box, Flex } from '@chakra-ui/react'
 import { TbBrandHtml5, TbBrandCss3, TbBrandJavascript, TbBrandReactNative } from "react-icons/tb";
-import { SiRedux, SiChakraui,SiNodedotjs, SiMongodb } from "react-icons/si"; 
+import { SiRedux, SiChakraui,SiNodedotjs, SiMongodb,SiBootstrap } from "react-icons/si"; 
 import { BiGitMerge } from 'react-icons/bi';
 import React from 'react'
 
@@ -44,10 +44,10 @@ const Skills = () => {
           <Heading size={'sm'}>CHAKRA-UI</Heading>
         </Flex>  
 
-        {/* <Flex shadow={'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'} p={3} alignItems='center' gap={6} borderRadius={10}>
-          <SiTypescript fontSize="30px" color='rgb(47,116,192)'/>
-          <Heading size={'sm'}>TYPESCRIPT</Heading>
-        </Flex>   */}
+        <Flex shadow={'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'} p={3} alignItems='center' gap={6} borderRadius={10}>
+          <SiBootstrap fontSize="30px" color='rgb(47,116,192)'/>
+          <Heading size={'sm'}>BOOTSTRAP</Heading>
+        </Flex>  
 
       </Flex>
       <Flex className='SkillListAll'>
