@@ -1,6 +1,7 @@
 import React from 'react';
 import {GrLinkedinOption, GrGithub, GrTwitter} from "react-icons/gr";
-import Pic from "../../resources/img.jpeg";
+// import Pic from "../../resources/img.jpeg";
+import Pic from "../../resources//img2.jpg"
 import { Flex, Heading, Button, Img, Link } from '@chakra-ui/react';
 
 const PortfollioLaptop = () => {

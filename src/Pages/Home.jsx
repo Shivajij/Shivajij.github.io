@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react';
 import React from 'react';
-import About from '../component/About/About';
+import About from "../component/About/About"
 import PortfollioLaptop from '../component/Home/PortfollioLaptop';
 import PortfollioMobile from '../component/Home/PortfollioMobile';
 import PortfollioTablet from '../component/Home/PortfollioTablet';
