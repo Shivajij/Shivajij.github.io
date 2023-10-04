@@ -1,5 +1,5 @@
 {
-  "homepage":"https://shivjij.github.io",
+  "homepage": "https://shivjij.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -45,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "browserslist": "^4.22.1"
   }
 }
